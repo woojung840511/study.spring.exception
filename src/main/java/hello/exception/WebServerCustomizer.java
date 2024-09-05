@@ -14,7 +14,6 @@ WebServerCustomizer에 있는 @Component 를 주석 처리하자.
 
  @Component
  */
-@Component
 public class WebServerCustomizer implements WebServerFactoryCustomizer<ConfigurableWebServerFactory> {
 
     @Override
